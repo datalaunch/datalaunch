@@ -1,0 +1,10 @@
+recursive-include datalaunch *.py
+
+include setup.py
+include README.md
+include LICENSE
+include MANIFEST.in
+
+# Include files for versioneer
+include versioneer.py
+include datalaunch/_version.py
